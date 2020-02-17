@@ -13,7 +13,7 @@ import java.io.FileReader;
 
 
 public class Archivos {
-
+//Metodo para crear numeros al azar y guardarlos en un array
 	public int[] numerosAzar(int cantidad, int maximo) {
 		int[] x = new int[cantidad];
 		for(int i=0; i < cantidad; i++) {
@@ -23,7 +23,7 @@ public class Archivos {
 		return x;
 	}
 	
-	
+	// metodo para crear un txt y/o escribir en un txt
 	public void escribir(int[] numeros) {
 		
 		try {
@@ -53,7 +53,7 @@ public class Archivos {
 			
 	}
 	
-	
+	// metodo para leer un txt y guardar los numeros en un Integer[]
 	public Integer[] leer() {
 		
 		Integer[] x = null;
